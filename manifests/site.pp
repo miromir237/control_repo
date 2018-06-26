@@ -8,4 +8,5 @@ node default {
     ensure => file,
     content => 'This is a second README',
     owner => 'root',
+  }
 }
